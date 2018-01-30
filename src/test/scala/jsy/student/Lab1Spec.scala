@@ -137,7 +137,7 @@ class Lab1Spec(lab1: Lab1Like) extends FlatSpec {
     }
   }
 
-  // Have a few trees pre-made to test against, both valid and invalid
+  // Have a few trees pre-made to test against, both valid and invalid   // all good up to here!!!!!!!!!!!!!!!!!!!!!!!
 
   val t1 = Node(Empty, 2, Empty)
   val t2 = Node(t1, 4, Empty)
@@ -260,3 +260,6 @@ class Lab1Suite extends Suites(
   new Lab1SpecRunner,
   new Lab1JsyTests
 )
+
+
+
